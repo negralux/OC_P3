@@ -167,7 +167,6 @@ article .plat {
 .calque-menu__inside {
   height: 100%;
   width: 100%;
-  margin-top:40%;
   transition: transform 300ms, opacity 250ms 50ms;
 }
 
