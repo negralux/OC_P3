@@ -1,11 +1,10 @@
 /*WEBDEV parcours 3 17/03/2020*/
 
-html,
 body {
   height: 100%;
 }
 
-/* dimensions mobilefirst menu sur une colonne*/
+/* dimensionssur une colonne*/
 .container {
   min-height: 100%;
   display: flex;
