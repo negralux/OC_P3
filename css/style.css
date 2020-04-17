@@ -1,3 +1,5 @@
+/*WEBDEV parcours 3 17/03/2020*/
+
 html,
 body {
   height: 100%;
@@ -76,7 +78,6 @@ h2 {
   font-family: 'Grand Hotel', cursive;
   background: linear-gradient(to bottom right, #c67412, #6e4ccc);
   background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -84,7 +85,6 @@ h2 {
   font-family: "Dancing Script";
   background: linear-gradient(to bottom right, #022ddf, #0887fb);
   background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -92,7 +92,6 @@ h2 {
   font-family: "Kaushan Script";
   background: linear-gradient(to bottom right, #3d923a, #bfff7e);
   background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -363,7 +362,3 @@ ul {
 .article--color-Bas {
   color: #6e4ccc;
 }
-
-
-
-/*# sourceMappingURL=style.css.map */
