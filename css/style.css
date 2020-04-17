@@ -78,6 +78,7 @@ h2 {
   font-family: 'Grand Hotel', cursive;
   background: linear-gradient(to bottom right, #c67412, #6e4ccc);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -208,7 +209,7 @@ header {
   height: 60px;
 }
 
-/* foooter fixe avec fixed + positions bt l r*/
+/* footer fixe avec fixed + positions bt l r*/
 .footer-container {
   background-color: #b71540;
   width: 100%;
@@ -361,3 +362,5 @@ ul {
 .article--color-Bas {
   color: #6e4ccc;
 }
+
+
