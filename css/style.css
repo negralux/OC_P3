@@ -78,7 +78,6 @@ h2 {
   font-family: 'Grand Hotel', cursive;
   background: linear-gradient(to bottom right, #c67412, #6e4ccc);
   background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
 }
 
