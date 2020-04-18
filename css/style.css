@@ -367,4 +367,17 @@ ul {
   color: #6e4ccc;
 }
 
+/* mediaquery si >540px menu sur 2 colonnes*/
+@media all and (min-width: 540px) {
+  .main__grille-menu {
+    max-width: 480px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
 
+ @media all and (min-width: 540px) {
+  .h1--content {
+    font-size: 2em;
+  }
+}
