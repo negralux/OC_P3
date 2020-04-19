@@ -377,15 +377,15 @@ ul {
   }
 }
 
-@media all and (min-width: 720px) {
+/*@media all and (min-width: 720px) {
   .main__grille-menu {
     max-width: 610px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap;*/
   }
 }
 
-/*@media all and (min-width: 540px) {
+@media all and (min-width: 540px) {
   .h1--contenu {
     font-size: 2em;
   }
