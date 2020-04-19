@@ -1,4 +1,4 @@
-/*WEBDEV parcours 3 17/03/2020*/
+/*WEBDEV parcours 3 19/03/2020*/
 
 body {
   height: 100%;
@@ -276,7 +276,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 0 7px #dddddd;
+  box-shadow: 0 0 7px #c8d6e5;
   align-items: center;
   background-color: #fcdfdb;
   margin-bottom: 80px;
@@ -294,15 +294,15 @@ a {
 }
 
 .menu-contenu--menu2 {
-  background-color: #fff5fe;
+  background-color: #FFF9C4;
 }
 
 .menu-contenu--menu3 {
-  background-color: #eef0f0;
+  background-color: #CFD8DC;
 }
 
 .menu-contenu--menu4 {
-  background-color: #fdfffd;
+  background-color: #F0F4C3;
 }
 
 .menu-contenu__title {
