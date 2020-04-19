@@ -276,6 +276,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 0 0 7px #dddddd;
   align-items: center;
   background-color: #fcdfdb;
   margin-bottom: 80px;
@@ -283,7 +284,7 @@ a {
   max-width: 520px;
   padding-left: 10%;
   padding-right: 10%;
-  min-height: 890px;
+  min-height: 880px;
 }
 
 .menu-contenu > img {
