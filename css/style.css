@@ -380,6 +380,8 @@ ul {
 @media all and (min-width: 720px) {
   .main__grille-menu {
     max-width: 610px;
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 
