@@ -383,7 +383,7 @@ ul {
   }
 }
 
-@media all and (min-width: 540px) {
+/*@media all and (min-width: 540px) {
   .h1--contenu {
     font-size: 2em;
   }
