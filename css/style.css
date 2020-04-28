@@ -1,4 +1,5 @@
-/*WEBDEV parcours 3 19/03/2020*/
+/*WEBDEV parcours 3 23/03/2020*/
+
 
 body {
   height: 100%;
@@ -71,6 +72,7 @@ h2 {
 /*modificateur titre des menus*/
 .h2--menu1 {
   margin: 3px 0 15px 0;
+  font-family: 'Parisienne', cursive;
 }
 
 .h2--menu2 {
@@ -123,14 +125,17 @@ article {
 }
 article h3, article .prix {
   font-weight: bold;
+  text-align:right;
 }
 
 article .plat {
   font-weight: lighter;
+  text-align:left;
 }
 
 .article--menu2 {
   font-family: 'Cookie', cursive;
+  font-size: 1.3rem;
 }
 
 .article--menu2 ul {
@@ -234,8 +239,8 @@ header {
 }
 
 .calque-menu {
-  width: 200px;
-  height: 282px;
+  width: 240px;
+  height: 310px;
   margin: auto;
   margin-top: 32px;
   background-color: #efdfdb;
@@ -371,17 +376,18 @@ ul {
 /* mediaquery si >540px menu sur 2 colonnes*/
 @media all and (min-width: 540px) {
   .main__grille-menu {
-    max-width: 480px;
+    max-width: 540px;
     display: flex;
     flex-flow: row wrap;
   }
 }
 
-/* mediaquery si >720px menu sur 2 colonnes*/
-@media all and (min-width: 720px) {
+/* mediaquery si >768px menu sur 2 colonnes*/
+@media all and (min-width: 768px) {
   .main__grille-menu {
-    max-width: 580px;
+    max-width: 560px;
     display: flex;
     flex-flow: row wrap;
+
   }
 }
