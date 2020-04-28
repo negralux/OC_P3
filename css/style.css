@@ -337,7 +337,7 @@ ul {
   text-align: center;
 }
 
-li .prix {
+li .prix span{
    margin-left: 20px;
 }
 
