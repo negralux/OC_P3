@@ -132,6 +132,7 @@ section h3, section .prix {
 section .plat {
   font-weight: lighter;
   text-align:left;
+  float:right;
 }
 
 .section--menu2 {
