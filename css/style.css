@@ -121,33 +121,33 @@ h2 {
   font-size: 1.5em;
 }
 
-article {
+section {
  font-family: 'Dancing+Script', cursive;
 }
-article h3, article .prix {
+section h3, section .prix {
   font-weight: bold;
   text-align:right;
 }
 
-article .plat {
+section .plat {
   font-weight: lighter;
   text-align:left;
 }
 
-.article--menu2 {
+.section--menu2 {
   font-family: 'Cookie', cursive;
   font-size: 1.3rem;
 }
 
-.article--menu2 ul {
+.section--menu2 ul {
   font-weight: normal;
 }
 
-.article--menu3-4 h3 {
+.section--menu3-4 h3 {
   font-weight: lighter;
 }
 
-.article--menu3-4 li .prix {
+.section--menu3-4 li .prix {
   font-weight: normal;
 }
 
