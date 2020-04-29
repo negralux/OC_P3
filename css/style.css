@@ -129,10 +129,14 @@ section h3, section .prix {
   text-align:right;
 }
 
-section .plat {
+.prix {
+  float: right;
+}
+
+  .plat {
   font-weight: lighter;
   text-align:left;
-  float:right;
+  float:left;
 }
 
 .section--menu2 {
