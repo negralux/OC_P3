@@ -339,12 +339,12 @@ ul {
 
 .prix span{
    margin-left: 20px;
-   text-align: right;
+   float: right;
 }
 
 .plat{
    margin-left: 20px;
-   text-align: left;
+   float: left;
 }
 
 p {
