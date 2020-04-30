@@ -105,7 +105,7 @@ h2 {
 .h2--menu-contenu {
   font-size: 1.4rem;
   margin: 75px 0 15px 0;
-  font-size:"Parisienne";
+  font-family:"Parisienne";
 }
 
 
@@ -124,7 +124,7 @@ h2 {
 section {
  font-family: 'Dancing+Script', cursive;
 }
-section h3, section .prix {
+section h3, section {
   font-weight: bold;
   text-align:right;
 }
@@ -132,7 +132,6 @@ section h3, section .prix {
 section .plat {
   font-weight: lighter;
   text-align:left;
-  float:right;
 }
 
 .section--menu2 {
@@ -339,7 +338,7 @@ ul {
 }
 
 span{
-   margin-left: 200px;
+   margin-left: 20px;
    float: right;
 }
 
@@ -347,6 +346,12 @@ span{
    margin-left: 20px;
    float: left;
 }
+
+
+.prix{
+float: right;
+ margin-right:20px;
+ }
 
 p {
     display: block;
