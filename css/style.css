@@ -3,7 +3,6 @@
 
 body {
   height: 100%;
-  margin:0;
 }
 
 /* dimensions sur une colonne*/
@@ -130,14 +129,10 @@ section h3, section .prix {
   text-align:right;
 }
 
-.prix {
-  float: right;
-}
-
-  .plat {
+section .plat {
   font-weight: lighter;
   text-align:left;
-  float:left;
+  float:right;
 }
 
 .section--menu2 {
@@ -344,7 +339,7 @@ ul {
 }
 
 span{
-   margin-left: 20px;
+   margin-left: 200px;
    float: right;
 }
 
