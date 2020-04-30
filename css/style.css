@@ -134,6 +134,12 @@ section .plat {
   text-align:left;
 }
 
+.plat {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .section--menu2 {
   font-family: 'Cookie', cursive;
   font-size: 1.3rem;
