@@ -3,6 +3,8 @@
 
 body {
   height: 100%;
+  margin: 0px;
+  background-color: #f6b93b
 }
 
 /* dimensions sur une colonne*/
@@ -126,7 +128,7 @@ section {
 }
 section h3, section {
   font-weight: bold;
-  text-align:right;
+  /*text-align:right;*/
 }
 
 section .plat {
@@ -449,14 +451,18 @@ ul {
     display: flex;
     flex-flow: row wrap;
   }
+  .h2--menu-contenu {
+  font-size: 2rem;
+  }
 }
-
 /* mediaquery si >768px menu sur 2 colonnes*/
 @media all and (min-width: 768px) {
   .main__grille-menu {
     max-width: 560px;
     display: flex;
     flex-flow: row wrap;
-
+  }
+  .h2--menu-contenu {
+    font-size: 2.8rem;
   }
 }
