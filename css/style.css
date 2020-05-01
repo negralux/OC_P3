@@ -35,7 +35,7 @@ body {
   margin-right: auto;
   flex-grow: 0;
 }
-
+/*h1 mot MENU sur les 4 menus*/
 h1 {
   font-family: 'Caveat Brush', cursive;
   color: #3c1218;
@@ -54,9 +54,9 @@ h1 {
 .h1--menu4 {
   color: #3d923a;
 }
-
+/*h1 dans les pages des menus*/
 .h1--contenu {
-  font-family: 'Trebuchet MS',Tahoma,sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
   color: #000000;
   font-size: 2.1em;
   margin: 30px 0 30px 0;
@@ -64,7 +64,7 @@ h1 {
 
 }
 h2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cookie', cursive;
   color: #3c1218;
   text-align: center;
   font-size: 1rem;
@@ -74,7 +74,7 @@ h2 {
 /*modificateur titre des menus*/
 .h2--menu1 {
   margin: 3px 0 15px 0;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Grand+Hotel', cursive;
 }
 
 .h2--menu2 {
@@ -112,7 +112,7 @@ h2 {
 
 
 .typo {
-  font-family: sans-serif, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
   color: #fdcb46;
   margin-left: 5%;
   margin-right: 5%;
@@ -182,7 +182,7 @@ section .plat {
   justify-content: center;
   align-items: center;
 }
-
+/*Animations CSS*/
 .btn-prochainement-container__button::after {
   content: " .";
   animation: dots 2s infinite;
@@ -204,6 +204,7 @@ section .plat {
     text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 #fdcb46;
   }
 }
+/*boutons shake du footer*/
 .footer__lien:hover {
   animation: shake 0.82s cubic-bezier(0.65, 0.23, 0.41, 0.79);
   transform: translate(0, 0);
@@ -223,7 +224,7 @@ section .plat {
     transform: translate(4px, 0);
   }
 }
-
+/*animation menus dans index.html*/
 .calque-menu__inside {
   height: 100%;
   width: 100%;
@@ -239,7 +240,7 @@ section .plat {
   content: " .";
   animation: dots 2s infinite;
 }
-
+/*soulignement des h3 dans les 4 menus*/
 h3::after {
   content: "";
   display: block;
@@ -259,7 +260,7 @@ header {
   height: 98px;
   display: flex;
 }
-
+/*retour homepage*/
 .header__lien {
   height: 60px;
   margin: auto;
@@ -302,7 +303,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+/*note dans La note enchantée + fonds des menus dans homepage*/
 .calque-menu img {
   width: 32px;
 }
@@ -318,7 +319,7 @@ header {
 .calque-menu--menu-4 {
   background-color: #cef0c8;
 }
-
+/*conteneurs texte h1/h2*/
 .calque-menu__inside {
   display: flex;
   flex-direction: column;
@@ -389,11 +390,11 @@ ul {
   text-align: center;
 }
 
-span{
+/*span{
    margin-left: 20px;
    float: right;
 }
-
+*/
 .plat{
    margin-left: 20px;
    float: left;
@@ -401,16 +402,17 @@ span{
 
 
 .prix{
-float: right;
- margin-right:20px;
+  margin-right:20px;
+  float: right;
+  
  }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 ul {
