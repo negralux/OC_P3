@@ -126,7 +126,7 @@ h2 {
 section {
  font-family: 'Dancing+Script', cursive;
 }
-section h3, section {
+section h3, section .prix{
   font-weight: bold;
   /*text-align:right;*/
 }
@@ -296,6 +296,7 @@ header {
   width: 240px;
   height: 310px;
   margin: auto;
+  box-shadow: 0 0 7px #cccccc;
   margin-top: 32px;
   background-color: #f6e0dc;
   display: flex;
@@ -335,7 +336,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 0 7px #c8d6e5;
+  box-shadow: 0 0 6px #c8d6e5;
   align-items: center;
   background-color: #f6e0dc;
   margin-bottom: 80px;
@@ -407,14 +408,14 @@ ul {
   
  }
 
-p {
+/*p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-
+*/
 ul {
   text-align: left;
 }
