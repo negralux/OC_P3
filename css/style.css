@@ -107,7 +107,7 @@ h2 {
   color: transparent;
   padding:6px;
 }
-
+/*Tîtres des menus*/
 .h2--menu-contenu {
   font-size: 1.2rem;
   margin: 75px 0 15px 0;
@@ -125,13 +125,13 @@ h2 {
 .typo--btn {
   font-size: 1.5em;
 }
-
+/*Polices pour plats et rubriques sur les 4 menus*/
 section {
- font-family: 'Dancing+Script', cursive;
+ font-family: 'Courgette', cursive;
 }
+
 section h3, section .prix{
   font-weight: bold;
-  /*text-align:right;*/
 }
 
 section .plat {
@@ -146,7 +146,6 @@ section .plat {
 }
 
 .section--menu2 {
-  font-family: 'Cookie', cursive;
   font-size: 1.3rem;
 }
 
@@ -334,7 +333,7 @@ header {
 a {
   text-decoration: none;
 }
-
+/*réglages blocs pages menus*/
 .menu-contenu {
   display: flex;
   flex-direction: column;
@@ -403,6 +402,7 @@ ul {
 .prix{
   margin-right:20px;
   float: right;
+  font-weight: bold;
   
  }
 
