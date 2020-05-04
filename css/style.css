@@ -75,12 +75,10 @@ h2 {
   font-family: 'Parisienne', cursive;
   padding:6px;
 }
-/*Menu fas fa-music*/
-.menu-contenu__logo-bottom
-{
+
+.menu-contenu__logo-bottom {
 font-family: 'Parisienne', cursive;
 color: #3c1218;
-padding-right:30px;
 }
 
 .h2--menu2 {
@@ -431,13 +429,13 @@ ul {
 }
 
 .menu-contenu__logo-bottom img {
-  width: 36px;
-  margin-right: 5px;
+  width: 48px;
+  margin-top: 36px;
 }
 
 .menu-contenu__logo-bottom h2 {
   font-size: 1.6em;
-  margin: 0;
+  margin-top: 36px;
 }
 /* 3 couleurs polices Menu 2*/
 .section--color-Ht {
