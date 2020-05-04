@@ -110,7 +110,7 @@ color: #3c1218;
 
 .h2--menu3 {
   font-family: 'Lobster', cursive;
-  background: linear-gradient(to bottom right, #022ddf, #0887fb);
+  background: linear-gradient(to bottom right, #022ddf, #00f6ff);
   background-clip: text;
   /*transparence du texte dans chrome et Safari*/
   -webkit-background-clip: text;
@@ -120,7 +120,7 @@ color: #3c1218;
 
 .h2--menu4 {
   font-family: "Kaushan Script";
-  background: linear-gradient(to bottom right, #3d923a, #bfff7e);
+  background: linear-gradient(to top right, #3d923a, #bfff7e);
   background-clip: text;
   /*transparence du texte dans chrome et Safari*/
   -webkit-background-clip: text;
@@ -131,6 +131,20 @@ color: #3c1218;
 .h2--menu-contenu {
   font-size: 2.2rem;
   margin: 75px 0 15px 0;
+}
+
+/*soulignement des h3 dans les 4 menus*/
+h3::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  transition: width 0.6s ease;
+}
+
+h3:hover::after {
+  width: 100%;
+  background: #000000;
 }
 
 
@@ -171,6 +185,19 @@ section .plat {
 
 .section--menu2 ul {
   font-weight: normal;
+}
+
+/* 3 couleurs polices Menu 2*/
+.section--color-Ht {
+  color: #c67412;
+}
+
+.section--color-Mid {
+  color: #a56799;
+}
+
+.section--color-Bas {
+  color: #6e4ccc;
 }
 
 .section--menu3-4 h3 {
@@ -262,19 +289,7 @@ section .plat {
   content: " .";
   animation: dots 2s infinite;
 }
-/*soulignement des h3 dans les 4 menus*/
-h3::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0;
-  transition: width 0.6s ease;
-}
 
-h3:hover::after {
-  width: 100%;
-  background: #000000;
-}
 
 
 
@@ -439,18 +454,7 @@ ul {
   font-size: 1.6em;
   margin-top: 36px;
 }
-/* 3 couleurs polices Menu 2*/
-.section--color-Ht {
-  color: #c67412;
-}
 
-.section--color-Mid {
-  color: #a56799;
-}
-
-.section--color-Bas {
-  color: #6e4ccc;
-}
 
 /* mediaquery si >540px menu sur 2 colonnes*/
 @media all and (min-width: 540px) {
