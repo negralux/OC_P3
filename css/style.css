@@ -1,4 +1,4 @@
-/*<!--WEBDEV parcours 3 04/05/2020-->*/
+/*<!--WEBDEV parcours 3 05/05/2020-->*/
 
 body {
   height: 100%;
@@ -86,7 +86,7 @@ h2 {
   width: 100%;
   height: 29px;
 }
-/*réglages titre des  4 menus*/
+/*reglages titre des  4 menus*/
 .h2--menu1 {
   margin: 3px 0 15px 0;
   font-family: 'Parisienne', cursive;
@@ -126,8 +126,9 @@ color: #3c1218;
   -webkit-background-clip: text;
   color: transparent;
   padding:6px;
+
 }
-/*Tîtres des menus*/
+/*Titres des menus*/
 .h2--menu-contenu {
   font-size: 2.2rem;
   margin: 75px 0 15px 0;
@@ -159,6 +160,7 @@ h3:hover::after {
 .typo--btn {
   font-size: 1.5em;
 }
+
 /*Polices pour plats et rubriques sur les 4 menus*/
 section {
  font-family: 'Dancing+Script', cursive;
@@ -172,6 +174,7 @@ section .plat {
   font-weight: 500;
   text-align:left;
 }
+
 /*mise en col prix et plat par space-between*/
 .plat {
   display: flex;
@@ -231,6 +234,7 @@ section .plat {
   justify-content: center;
   align-items: center;
 }
+
 /*Animations CSS*/
 .btn-prochainement-container__button::after {
   content: " .";
@@ -273,6 +277,7 @@ section .plat {
     transform: translate(4px, 0);
   }
 }
+
 /*animation menus dans index.html*/
 .calque-menu__inside {
   height: 100%;
@@ -290,9 +295,6 @@ section .plat {
   animation: dots 2s infinite;
 }
 
-
-
-
 /* footer fixe avec fixed + positions bt l r*/
 .footer-container {
   background-color: #b71540;
@@ -304,6 +306,7 @@ section .plat {
   left: 0;
   right: 0;
 }
+
 /* space-between renvoie les boutons vers G et D du bloc*/
 .footer-container footer {
   display: flex;
@@ -326,7 +329,7 @@ section .plat {
   justify-content: center;
   align-items: center;
 }
-/*note dans La note enchantée + fonds des menus dans homepage*/
+/*note dans La note enchantee + fonds des menus dans homepage*/
 .calque-menu img {
   width: 32px;
 }
@@ -353,7 +356,8 @@ section .plat {
 a {
   text-decoration: none;
 }
-/*réglages blocs pages menus*/
+
+/*reglages blocs pages menus*/
 .menu-contenu {
   display: flex;
   flex-direction: column;
@@ -438,7 +442,6 @@ ul {
   text-align: left;
 }
 
-}
 .menu-contenu__logo-bottom {
   display: flex;
   align-items: center;
@@ -467,6 +470,7 @@ ul {
   font-size: 2.4rem;
   }
 }
+
 /* mediaquery si >768px menu sur 2 colonnes*/
 @media all and (min-width: 768px) {
   .main__grille-menu {
