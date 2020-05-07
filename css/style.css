@@ -24,13 +24,13 @@ body {
 }
 
 .header__lien {
-  height: 60px;
+  height: 46px;
   margin: auto;
 }
 
 /* Taille du logo*/
 .header__lien .header__logo {
-  height: 60px;
+  height: 46px;
 }
 .main {
   display: flex;
