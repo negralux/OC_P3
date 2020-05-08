@@ -124,13 +124,13 @@ color: #3d1319;
   /*transparence du texte dans chrome et Safari*/
   -webkit-background-clip: text;
   color: transparent;
-  padding:40px;
+  padding-bottom:40px;
 
 }
 /*Titres des menus*/
 .h2--menu-contenu {
   font-size: 2.2rem;
-  margin: 46px 0 15px 0;
+  margin: 0px 0 15px 0;
 }
 
 /*soulignement des h3 dans les 4 menus*/
