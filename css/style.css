@@ -86,10 +86,10 @@ h2 {
 }
 /*reglages titre des  4 menus*/
 .h2--menu1 {
-  margin: 3px 0 15px 0;
+  margin: 0px 0 15px 0;
   font-family: 'Devonshire', cursive;
   color: #3d1319;
-  padding:36px;
+  padding-bottom:40px;
 }
 
 .menu-contenu__logo-bottom {
@@ -104,7 +104,7 @@ color: #3d1319;
   /*transparence du texte dans chrome et Safari*/
   -webkit-background-clip: text;
   color: transparent;
-  padding:40px;
+  padding-bottom:40px;
 }
 
 .h2--menu3 {
@@ -114,7 +114,7 @@ color: #3d1319;
   /*transparence du texte dans chrome et Safari*/
   -webkit-background-clip: text;
   color: transparent;
-  padding:40px;
+  padding-bottom:40px;
 }
 
 .h2--menu4 {
@@ -375,7 +375,6 @@ a {
 .menu-contenu > img {
   width: 64px;
   margin-top: 30px;
-  margin-bottom: -68px;
 }
 
 .menu-contenu--menu2 {
