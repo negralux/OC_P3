@@ -372,7 +372,7 @@ a {
 .menu-contenu > img {
   width: 64px;
   margin-top: 30px;
-  margin-bottom: -68px;
+  /*margin-bottom: -68px;*/
 }
 
 .menu-contenu--menu2 {
@@ -439,6 +439,7 @@ ul {
 .menu-contenu__logo-bottom img {
   width: 48px;
   margin-top: 36px;
+  margin-bottom: -16px;
 }
 
 .menu-contenu__logo-bottom h2 {
