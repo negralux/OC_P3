@@ -361,8 +361,8 @@ a {
   box-shadow: 0 0 6px #c8d6e5;
   align-items: center;
   background-color: #fcdfdb;
-  margin-bottom: 80px;
-  padding-bottom: 64px;
+  margin-bottom: 64px;
+  padding-bottom: 54px;
   max-width: 520px;
   padding-left: 10%;
   padding-right: 10%;
@@ -372,7 +372,6 @@ a {
 .menu-contenu > img {
   width: 64px;
   margin-top: 30px;
-  /*margin-bottom: -68px;*/
 }
 
 .menu-contenu--menu2 {
@@ -410,7 +409,7 @@ li {
 ul {
   padding: 0;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .plat{
@@ -423,28 +422,21 @@ ul {
   margin-right:20px;
   float: right;
   font-weight: bold;
-  
  }
-
-ul {
-  text-align: left;
-}
 
 .menu-contenu__logo-bottom {
   display: flex;
   align-items: center;
-  margin-top: 36px;
 }
 
 .menu-contenu__logo-bottom img {
   width: 48px;
-  margin-top: 36px;
   margin-bottom: -16px;
 }
 
 .menu-contenu__logo-bottom h2 {
   font-size: 1.6em;
-  margin-top: 36px;
+  margin-top: 12px;
 }
 
 
