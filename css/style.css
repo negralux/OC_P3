@@ -161,7 +161,7 @@ section {
  line-height: 20px;
 }
 
-section h3, section .prix{
+h3,.prix{
   font-weight: 700;
 }
 
